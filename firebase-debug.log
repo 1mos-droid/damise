@@ -1,0 +1,147 @@
+[debug] [2025-09-29T01:08:21.715Z] ----------------------------------------------------------------------
+[debug] [2025-09-29T01:08:21.725Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Others\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-09-29T01:08:21.725Z] CLI Version:   14.17.0
+[debug] [2025-09-29T01:08:21.725Z] Platform:      win32
+[debug] [2025-09-29T01:08:21.726Z] Node Version:  v24.9.0
+[debug] [2025-09-29T01:08:21.726Z] Time:          Mon Sep 29 2025 01:08:21 GMT+0000 (Greenwich Mean Time)
+[debug] [2025-09-29T01:08:21.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-29T01:08:21.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-29T01:08:21.739Z] > authorizing via signed-in user (isemuk8@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Others\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-09-29T01:09:16.264Z] Checked if tokens are valid: false, expires at: 1759108894883
+[debug] [2025-09-29T01:09:16.265Z] Checked if tokens are valid: false, expires at: 1759108894883
+[debug] [2025-09-29T01:09:16.265Z] > refreshing access token with scopes: []
+[debug] [2025-09-29T01:09:16.274Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-09-29T01:09:16.276Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-29T01:09:16.883Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-09-29T01:09:16.883Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-29T01:09:16.901Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-09-29T01:09:16.901Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"Damise"}
+[debug] [2025-09-29T01:09:17.794Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-09-29T01:09:17.794Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_NOT_VALID","suggestedProjectId":"damise-a4ce8"}
+[debug] [2025-09-29T01:09:26.645Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:26.646Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:26.648Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-09-29T01:09:26.648Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"damise"}
+[debug] [2025-09-29T01:09:27.543Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-09-29T01:09:27.543Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_UNAVAILABLE","suggestedProjectId":"damise-1feee"}
+[debug] [2025-09-29T01:09:36.876Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:36.876Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:36.882Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2025-09-29T01:09:36.883Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"damise-1free"}
+[debug] [2025-09-29T01:09:37.615Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2025-09-29T01:09:37.616Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_AVAILABLE","suggestedProjectId":"damise-1free"}
+[debug] [2025-09-29T01:09:51.157Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:51.158Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:51.158Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2025-09-29T01:09:51.158Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"damise-1free","name":"Damise"}
+[debug] [2025-09-29T01:09:52.668Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2025-09-29T01:09:52.668Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.7230777840862564174"}
+[debug] [2025-09-29T01:09:52.670Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:52.671Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:52.671Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 [none]
+[debug] [2025-09-29T01:09:53.861Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 200
+[debug] [2025-09-29T01:09:53.862Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 {"name":"operations/create_project.global.7230777840862564174"}
+[debug] [2025-09-29T01:09:54.377Z] [Project Creation Poller] Retrying task index 0
+[debug] [2025-09-29T01:09:54.378Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:54.378Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:54.378Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 [none]
+[debug] [2025-09-29T01:09:54.701Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 200
+[debug] [2025-09-29T01:09:54.701Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.7230777840862564174 {"name":"operations/create_project.global.7230777840862564174","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"170485192235","projectId":"damise-1free","lifecycleState":"ACTIVE","name":"Damise","createTime":"2025-09-29T01:10:00.637399Z"}}
+[debug] [2025-09-29T01:09:54.704Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:54.704Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:54.704Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/damise-1free:addFirebase [none]
+[debug] [2025-09-29T01:09:58.908Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/damise-1free:addFirebase 200
+[debug] [2025-09-29T01:09:58.909Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/damise-1free:addFirebase {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4"}
+[debug] [2025-09-29T01:09:58.909Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:58.910Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:09:58.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 [none]
+[debug] [2025-09-29T01:09:59.664Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 200
+[debug] [2025-09-29T01:09:59.664Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4"}
+[debug] [2025-09-29T01:10:00.166Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-29T01:10:00.166Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:00.166Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:00.167Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 [none]
+[debug] [2025-09-29T01:10:00.792Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 200
+[debug] [2025-09-29T01:10:00.793Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4"}
+[debug] [2025-09-29T01:10:01.800Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-29T01:10:01.801Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:01.802Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:01.802Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 [none]
+[debug] [2025-09-29T01:10:02.572Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 200
+[debug] [2025-09-29T01:10:02.573Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4"}
+[debug] [2025-09-29T01:10:04.583Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-29T01:10:04.584Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:04.584Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:04.585Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 [none]
+[debug] [2025-09-29T01:10:05.401Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 200
+[debug] [2025-09-29T01:10:05.402Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4"}
+[debug] [2025-09-29T01:10:09.408Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2025-09-29T01:10:09.411Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:09.412Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:09.412Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 [none]
+[debug] [2025-09-29T01:10:10.094Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 200
+[debug] [2025-09-29T01:10:10.094Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4 {"name":"operations/workflows/NzUzYzgyYjQtNTcwMC00ZmM4LWI5NzEtYTVkYTg3NDYyMGU4","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"damise-1free","projectNumber":"170485192235","displayName":"Damise","name":"projects/damise-1free","resources":{"hostingSite":"damise-1free"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: damise-1free
+[info]    - Project Name: Damise
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/damise-1free/overview
+[info] i  Using project damise-1free (Damise) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-29T01:10:10.636Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:10.637Z] Checked if tokens are valid: true, expires at: 1759111755884
+[debug] [2025-09-29T01:10:10.637Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/damise-1free [none]
+[debug] [2025-09-29T01:10:11.780Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/damise-1free 200
+[debug] [2025-09-29T01:10:11.780Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/damise-1free {"projectId":"damise-1free","projectNumber":"170485192235","displayName":"Damise","name":"projects/damise-1free","resources":{"hostingSite":"damise-1free"},"state":"ACTIVE","etag":"1_b1fec4d9-603b-4141-99bb-04ff1287c450"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-09-29T01:10:29.614Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-09-29T01:10:30.197Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-09-29T01:10:30.197Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.3.0","browserURL":"https://www.gstatic.com/firebasejs/12.3.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.3.0/firebase.tgz"},"live":{"version":"12.3","browserURL":"https://www.gstatic.com/firebasejs/live/12.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.3/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.3.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.3.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.3.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.3.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.3.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/12.3.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.3.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.3.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.3.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.3.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.3.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.3.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\Others\portfolio is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=500768437&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-09-29T01:10:31.327Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-09-29T01:10:31.328Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-09-29T01:10:32.057Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-09-29T01:10:32.057Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-09-29T01:10:32.069Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-09-29T01:10:32.853Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-09-29T01:10:32.853Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"1mos-droid","id":225914462,"node_id":"U_kgDODXcuXg","avatar_url":"https://avatars.githubusercontent.com/u/225914462?v=4","gravatar_id":"","url":"https://api.github.com/users/1mos-droid","html_url":"https://github.com/1mos-droid","followers_url":"https://api.github.com/users/1mos-droid/followers","following_url":"https://api.github.com/users/1mos-droid/following{/other_user}","gists_url":"https://api.github.com/users/1mos-droid/gists{/gist_id}","starred_url":"https://api.github.com/users/1mos-droid/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/1mos-droid/subscriptions","organizations_url":"https://api.github.com/users/1mos-droid/orgs","repos_url":"https://api.github.com/users/1mos-droid/repos","events_url":"https://api.github.com/users/1mos-droid/events{/privacy}","received_events_url":"https://api.github.com/users/1mos-droid/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":4,"public_gists":0,"followers":2,"following":1,"created_at":"2025-08-11T15:58:16Z","updated_at":"2025-09-28T19:34:37Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":8372,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as 1mos-droid 
+[info] 
